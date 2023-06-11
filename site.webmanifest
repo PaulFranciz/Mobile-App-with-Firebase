@@ -1,0 +1,20 @@
+{
+  "name": "Cart Genius",
+  "description": "The Shopping List App is a convenient tool for managing your shopping items effortlessly. With real-time synchronization using Firebase Realtime Database, you can seamlessly add, view, and remove items from your shopping list across multiple devices. Stay organized and never forget a grocery item again with this user-friendly and reliable shopping companion.",
+  "short_name": "Cart Genius",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1DA1F2",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
+  background-color: #14171a;
+  color: #192734;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 30px auto;
+}
+
+img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  color: #333;
+  background-color: #e1e5eb;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  margin: 10px 0;
+}
+
+button {
+  color: #fdfdfd;
+  background-color: #1da1f2;
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+}
+
+button:hover {
+  background-color: #192734;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+ul li {
+  color: #192734;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #fffdf8;
+  padding: 15px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  flex-grow: 1;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul li:hover {
+  background-color: #e5cb98;
+  cursor: pointer;
+}
